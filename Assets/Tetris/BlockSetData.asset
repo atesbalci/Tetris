@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f232960e6f4f9faa6e910eb8ec23ec, type: 3}
+  m_Name: BlockSetData
+  m_EditorClassIdentifier: 
+  _entries:
+  - Material: {fileID: 2100000, guid: 455ddd4b90fdc20418d432dd87aec25c, type: 2}
+    Locations:
+    - {x: -1, y: 0}
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+  - Material: {fileID: 2100000, guid: 7396d73b3e05e5d47a24f40d485f8e64, type: 2}
+    Locations:
+    - {x: -1, y: 0}
+    - {x: -1, y: -1}
+    - {x: 0, y: -1}
+    - {x: 1, y: -1}
+  - Material: {fileID: 2100000, guid: abf50af038cabda469c9706dc48f76a7, type: 2}
+    Locations:
+    - {x: -1, y: -1}
+    - {x: 0, y: -1}
+    - {x: 1, y: -1}
+    - {x: 1, y: 0}
+  - Material: {fileID: 2100000, guid: 313d43dc3427d8947aef2c387561882c, type: 2}
+    Locations:
+    - {x: 0, y: 0}
+    - {x: 0, y: -1}
+    - {x: 1, y: 0}
+    - {x: 1, y: -1}
+  - Material: {fileID: 2100000, guid: 08319b9afab30964eb2e95266f2fbd66, type: 2}
+    Locations:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: -1, y: -1}
+    - {x: 0, y: -1}
+  - Material: {fileID: 2100000, guid: d1a88cd951a8da24e8c631176c5f8804, type: 2}
+    Locations:
+    - {x: 0, y: 0}
+    - {x: -1, y: -1}
+    - {x: 0, y: -1}
+    - {x: 1, y: -1}
+  - Material: {fileID: 2100000, guid: 4d14c527aad992d47bb5604bda1f6a21, type: 2}
+    Locations:
+    - {x: -1, y: 0}
+    - {x: 0, y: 0}
+    - {x: 0, y: -1}
+    - {x: 1, y: -1}
