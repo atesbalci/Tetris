@@ -43,7 +43,7 @@ namespace Tetris.Game.Models.Blocks.Impl
 
         public void Rotate(bool clockwise)
         {
-            var angle = clockwise ? 90f : -90f;
+            var angle = (clockwise ? -1f : 1f) * 0.5f * Mathf.PI;
             var sin = Mathf.Sin(angle);
             var cos = Mathf.Cos(angle);
             

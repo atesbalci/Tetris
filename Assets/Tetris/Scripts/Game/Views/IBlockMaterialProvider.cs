@@ -1,7 +1,7 @@
 ﻿using Tetris.Game.Models.Blocks;
 using UnityEngine;
 
-namespace Tetris.Scripts.Game.Views
+namespace Tetris.Game.Views
 {
     public interface IBlockMaterialProvider
     {

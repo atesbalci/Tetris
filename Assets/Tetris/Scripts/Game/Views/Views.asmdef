@@ -1,7 +1,10 @@
 {
     "name": "Views",
     "references": [
-        "Models"
+        "Models",
+        "Zenject",
+        "DOTween.Modules",
+        "Helpers"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

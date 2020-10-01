@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Tetris.Game.Models.Blocks;
 using UnityEngine;
 
-namespace Tetris.Scripts.Game.Views
+namespace Tetris.Game.Views
 {
     [CreateAssetMenu]
     public class BlockSetData : ScriptableObject, IBlockSetProvider, IBlockMaterialProvider

@@ -1,7 +1,10 @@
 {
     "name": "Controllers",
     "references": [
-        "Models"
+        "Models",
+        "Helpers",
+        "Views",
+        "Zenject"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
