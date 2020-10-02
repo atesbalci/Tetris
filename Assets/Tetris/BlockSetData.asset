@@ -15,10 +15,10 @@ MonoBehaviour:
   _entries:
   - Material: {fileID: 2100000, guid: 455ddd4b90fdc20418d432dd87aec25c, type: 2}
     Locations:
+    - {x: -2, y: 0}
     - {x: -1, y: 0}
     - {x: 0, y: 0}
     - {x: 1, y: 0}
-    - {x: 2, y: 0}
   - Material: {fileID: 2100000, guid: 7396d73b3e05e5d47a24f40d485f8e64, type: 2}
     Locations:
     - {x: -1, y: 0}
@@ -35,8 +35,8 @@ MonoBehaviour:
     Locations:
     - {x: 0, y: 0}
     - {x: 0, y: -1}
-    - {x: 1, y: 0}
-    - {x: 1, y: -1}
+    - {x: -1, y: 0}
+    - {x: -1, y: -1}
   - Material: {fileID: 2100000, guid: 08319b9afab30964eb2e95266f2fbd66, type: 2}
     Locations:
     - {x: 0, y: 0}

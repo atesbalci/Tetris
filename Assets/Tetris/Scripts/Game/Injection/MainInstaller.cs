@@ -15,6 +15,7 @@ namespace Tetris.Game.Injection
         [SerializeField] private BlockSetData _blockSetData;
         [SerializeField] private CoroutineRunner _coroutineRunner;
         [SerializeField] private GameObject _blockPrefab;
+        [SerializeField] private GameObject _previewBlockPrefab;
         [SerializeField] private Transform _blockPoolParent;
         [SerializeField] private Transform _blockSpawnedParent;
         [SerializeField] private Transform _previewParent;
@@ -33,8 +34,12 @@ namespace Tetris.Game.Injection
             Container.BindMemoryPool<BlockView, BlockPool>()
                 .WithInitialSize(300)
                 .FromComponentInNewPrefab(_blockPrefab)
+                .UnderTransform(_blockPoolParent);
+            Container.BindMemoryPool<BlockView, BlockPool>()
+                .WithInitialSize(10)
+                .FromComponentInNewPrefab(_previewBlockPrefab)
                 .UnderTransform(_blockPoolParent)
-                .AsSingle();
+                .WhenInjectedInto<PreviewController>();
         }
     }
 }
